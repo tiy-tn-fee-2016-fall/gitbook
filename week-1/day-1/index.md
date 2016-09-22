@@ -22,6 +22,10 @@ console.log(a); //
 - [HTML Elements and Attributes](https://online.theironyard.com/paths/579/units/3469/lessons/13926)
 - [Boilerplate Valid HTML](https://online.theironyard.com/paths/579/units/3469/lessons/13927)
 - [Common HTML Elements](https://online.theironyard.com/paths/579/units/3469/lessons/13925)
+- [CSS Syntax](https://online.theironyard.com/paths/579/units/3469/lessons/13938)
+- [Connecting HTML to CSS](https://online.theironyard.com/paths/579/units/3469/lessons/13942)
+- [Basic CSS Selectors](https://online.theironyard.com/paths/579/units/3469/lessons/13940)
+- [Basic CSS Properties](https://online.theironyard.com/paths/579/units/3469/lessons/13943)
 
 ## Inspiration
 

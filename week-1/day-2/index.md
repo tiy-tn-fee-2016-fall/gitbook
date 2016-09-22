@@ -12,50 +12,46 @@ var a = '2';
 var b = 'two';
 
 
-console.log(x == x); // true
-console.log(x == y); // false
-console.log(x == a); // true
-console.log(a == b); // false
+console.log(x == x); //
+console.log(x == y); //
+console.log(x == a); //
+console.log(a == b); //
 
 // MOAR EQUALS
-console.log(x === y); // false
-console.log(x === a); // false
+console.log(x === y); //
+console.log(x === a); //
 
 // Not Equals
-console.log(x != a); // false
+console.log(x != a); //
 // MOAR NOT EQUALS
-console.log(x !== a); // true
-console.log(x !== z); // true
+console.log(x !== a); //
+console.log(x !== z); //
 
 // When you see console.assert fill in the _ to make the statement true
-console.assert(x - y === -1);
-console.assert(x + y === 5);
-console.assert(z / x === 2);
-console.assert(x * y === 6);
-console.assert(x % y === 2); // Remainder of division
+console.assert(x _ y === -1);
+console.assert(x _ y === 5);
+console.assert(z _ x === 2);
+console.assert(x _ y === 6);
+console.assert(x _ y === 2);
 ```
 
 ## Topics
 
-* [CSS Syntax](https://developer.mozilla.org/en-US/docs/Web/CSS/Syntax)
-* [Basic CSS Selectors](selectors.html)
-* [Basic CSS Properties](properties.html)
-* [CSS Waterfall](css-waterfall.html)
-* [Inherit](inherit.html)
-* **[px, rem, and em Units](units.html)**
-* [Chrome Dev Tools for CSS & HTML](dev-tools.html)
-* [CSS Box Model & Boreder Box](box-model.html)
+* [CSS Units](https://online.theironyard.com/paths/579/units/3469/lessons/13944)
+* [CSS Waterfall](https://online.theironyard.com/paths/579/units/3469/lessons/13945)
+* [Inherit](https://online.theironyard.com/paths/579/units/3469/lessons/13946)
+* [CSS Box Model & Border Box](https://online.theironyard.com/paths/579/units/3469/lessons/13947)
 
 
-* [CSS Display](display.html)
-* [CSS Floats](float.html)
+* [CSS Display](https://online.theironyard.com/paths/579/units/3469/lessons/13948)
+* [CSS Floats](https://online.theironyard.com/paths/579/units/3469/lessons/13949)
 * **[Double Container](double-container.html)**
 
 ## Inspiration
 
-### Let's Build Our First Grid
+### Let's Work with Float and Grids!
 
-![Our Grid](http://www.howtogeek.com/wp-content/uploads/2014/11/ximg_5478f6eb51296.png.pagespeed.gp+jp+jw+pj+js+rj+rp+rw+ri+cp+md.ic.anpugrE3gu.png)
+![Grid](http://purecss.io/layouts/blog/)
 
 ## Exercise & Lesson Code
 
