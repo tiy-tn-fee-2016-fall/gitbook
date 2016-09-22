@@ -61,6 +61,10 @@ brew cask install --appdir="/Applications" ${apps[@]}
 echo "Setting Git to use Atom as default editor"
 git config --global core.editor "atom --wait --safe"
 
+echo "Setting up Git Ignore"
+wget https://gist.githubusercontent.com/octocat/9257657/raw/3f9569e65df83a7b328b39a091f0ce9c6efc6429/.gitignore -O ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
 # Let's make the Terminal Great AGAIN!
 sh -c "$(wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
