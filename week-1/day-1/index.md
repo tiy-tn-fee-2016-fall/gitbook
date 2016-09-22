@@ -22,29 +22,24 @@ console.log(a); //
 - [HTML Elements and Attributes](https://online.theironyard.com/paths/579/units/3469/lessons/13926)
 - [Boilerplate Valid HTML](https://online.theironyard.com/paths/579/units/3469/lessons/13927)
 - [Common HTML Elements](https://online.theironyard.com/paths/579/units/3469/lessons/13925)
-- [Periodic Table of (HTML) Elements](../../resources/html/table-of-elements.html)
 
 ## Inspiration
 
 ### [Laravel](https://laravel.com/)
 
-### Whiteboards
-
-![HTML](./whiteboard-html.jpg)
-
 ## Exercise & Lesson Code
 
-- [https://github.com/TIY-TN-FEE-2016-fall/lesson-01-02](https://github.com/TIY-TN-FEE-2016-fall/lesson-01-01)
+- [https://github.com/TIY-TN-FEE-2016-fall/lesson-01-01](https://github.com/TIY-TN-FEE-2016-fall/lesson-01-01)
 
 ## Lab
 
-- [Git Basics](git.html)
+- [Git Basics](https://online.theironyard.com/paths/579/units/3472/lessons/13928)
+- [Git Cheatsheet](https://services.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+- [Navigating Github](https://online.theironyard.com/paths/579/units/3472/lessons/13929)
+- [Hub CLI](https://online.theironyard.com/paths/579/units/3472/lessons/13930)
 - Homework
 
 ### Whiteboards
 
-![CSS](./whiteboard-css.jpg)
 
 ## Homework
-
-https://online.theironyard.com/paths/379/units/2144/assignments/4745
