@@ -19,14 +19,14 @@ console.log(a); //
 
 ## Topics
 
-- [HTML Elements and Attributes](html.html)
-- [Boilerplate Valid HTML](boilerplate.html)
-- [Common HTML Elements](elements.html)
+- [HTML Elements and Attributes](https://online.theironyard.com/paths/579/units/3469/lessons/13926)
+- [Boilerplate Valid HTML](https://online.theironyard.com/paths/579/units/3469/lessons/13927)
+- [Common HTML Elements](https://online.theironyard.com/paths/579/units/3469/lessons/13925)
 - [Periodic Table of (HTML) Elements](../../resources/html/table-of-elements.html)
 
 ## Inspiration
 
-### [Pied Piper](http://piedpiper.com)
+### [Laravel](https://laravel.com/)
 
 ### Whiteboards
 

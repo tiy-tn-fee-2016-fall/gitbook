@@ -14,6 +14,7 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
     * Atom Plugins
 * Week 1
   - Monday
+    * Welcome to Campus
     * Git & Console
     * HTML Basics
       - Elements
@@ -23,6 +24,7 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
       - Selectors
       - Properties
   - Tuesday
+    * How to use Slack and TIYO
     * Box Sizing
       - Border Box
     * Chrome Dev Tools
@@ -31,11 +33,13 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
     * Layout Patterns
       - Double Container
   - Wednesday
+    * Raising the white flag
     * Positioning
     * Transform
     * Breaking Down a Layout
     * Emmet Show and Tell
   - Thursday
+    * Supporting Inclusivity
     * Flexbox
     * Reusable Patterns
       - Media Object
