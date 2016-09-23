@@ -1,4 +1,4 @@
-# Front End Engineering Summer 2016
+# Front End Engineering Fall 2016
 
 ## Nashville!!!
 

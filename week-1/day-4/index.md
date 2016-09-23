@@ -4,7 +4,7 @@
 ## Topics
 
 * **[`vh` and `vw` Units](https://css-tricks.com/the-lengths-of-css/#article-header-id-12)**
-* [Flex Box](flex-box.html)
+* [Flex Box](https://online.theironyard.com/paths/579/units/3469/lessons/14037)
   - Flex Parent vs Flex Children `display: flex`
   - `flex-direction` (Parent)
     * Primary Axis
