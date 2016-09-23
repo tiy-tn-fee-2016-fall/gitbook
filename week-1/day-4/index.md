@@ -17,14 +17,14 @@
 * **Flexbox Patterns**
   - Sticky Footer
 
-* [Breaking Down a Layout](layout-planning.html)
-* [Layout Techniques](layout-tricks.html)
+* [Breaking Down a Layout](https://online.theironyard.com/paths/579/units/3469/lessons/14038)
+* [Layout Techniques](https://online.theironyard.com/paths/579/units/3469/lessons/14039)
 
 ## Inspiration
 
 ### Tumblr Splash Page
 
-[![Tumblr Splash Page](./tumblr.png)](./tumblr.png)
+[![Tumblr Splash Page](http://themes.iamabdus.com/star/1.1/index.html)](http://themes.iamabdus.com/star/1.1/index.html)
 
 ## Exercise & Lesson Code
 
