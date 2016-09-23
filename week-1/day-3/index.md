@@ -9,14 +9,15 @@
 
 ## Topics
 
-* [CSS Position](position.html)
-* [CSS Position](position.html)
-* [CSS Transform](transform.html)
-* **[Breaking Down a Layout](layout-planning.html)**
-  - Marker Analogy
+* [CSS Positioning](https://online.theironyard.com/paths/579/units/3469/lessons/13950)
+* [CSS Transform]https://online.theironyard.com/paths/579/units/3469/lessons/13952)
+* [CSS Backgrounds](https://online.theironyard.com/paths/579/units/3469/lessons/13954)
+* [CSS Pseudo Selectors](https://online.theironyard.com/paths/579/units/3469/lessons/13955)
+* Breaking Down a Layout
+  - Marker Analogy (what's the easiest way to move the text that says "Expo on the whiteboard?")
   - Post-It Note
   - Jamaican-ized Approach
-* **[Reusable Elements](reusable-elements.html)**
+* Reusable Elements
 
 ## Inspiration
 
@@ -44,8 +45,7 @@ https://github.com/TIY-TN-FEE-2016-spring/lesson-01-03
 
 ## Homework
 
-https://online.theironyard.com/paths/379/units/2144/assignments/4877
-
-## Resources
+## Other Resources
 
 * (Box Model Playground)[http://codepen.io/anon/pen/dMOwmR?editors=0100]
+* (CSS `attr` function)[https://online.theironyard.com/paths/579/units/3469/lessons/13956]
