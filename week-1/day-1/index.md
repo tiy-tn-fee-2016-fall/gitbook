@@ -1,4 +1,4 @@
-# Monday June 13
+# Monday September 26
 
 ## Daily JS Take 1
 

@@ -1,5 +1,39 @@
-# Thursday June 16
+# Thursday September 29
 
+## Daily JS
+
+Arrays and Objects (all ES6 like)
+
+```js
+var x = [1, 2, 3];
+var y = [1, 2, 3];
+var z = [x, y];
+var a = {'something': x, another: 'hello'};
+var b = {x, y};
+var c = {x, y};
+var d = c;
+
+console.log(x === y);
+console.log(x == y);
+console.log(x[0]);
+console.log(y[0] === x[0]);
+console.log(z[0] === x);
+console.log(a.another);
+console.log(a['something']); // How far does it go?
+console.log(b === c);
+console.log(c === d);
+
+/* Results (Printed statements from console.logs) */
+//
+//
+//
+//
+//
+//
+//
+//
+//
+```
 
 ## Topics
 

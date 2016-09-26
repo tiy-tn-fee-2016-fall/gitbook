@@ -1,4 +1,4 @@
-# Tuesday June 14
+# Tuesday September 27
 
 ## Daily JS
 

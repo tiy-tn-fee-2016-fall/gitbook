@@ -1,4 +1,30 @@
-# Wednesday June 15
+# Wednesday September 28
+
+## Daily JS
+
+String Concatenation & ES6 Strings
+
+```js
+var x = 2;
+var y = 3;
+var z = 'hello';
+var a = 'world';
+var b = '2';
+var c = `${a} foo ${b}`;
+var d = `foo`;
+var e = `${x} + ${y} = ${x + y}`;
+var f = x + ' + ' + y + ' = ' + (x + y);
+
+console.log(x + y); //
+console.log(z + a); //
+console.log(z + ' ' + a); //
+console.log(c); //
+console.log(d); //
+console.log(e); //
+console.log(x + z); //
+console.log(x + b); //
+console.log(x + Math.parseInt(b)); //
+```
 
 ## Standups
 
