@@ -5,16 +5,20 @@
 Variable assignment and primitive data types
 
 ```js
-var x = 1;
-var y = 'abc';
-var z = true;
+var x = 1; // Number
+var y = 'abc'; // String
+var z = true; // Boolean (true or false)
 var a = x;
 x = 2;
 
-console.log(x); //
-console.log(y); //
-console.log(z); //
-console.log(a); //
+/* This is a multi-
+line comment
+*/
+
+console.log(x); // 2
+console.log(y); // "abc"
+console.log(z); // true
+console.log(a); // 1
 ```
 
 ## Topics
