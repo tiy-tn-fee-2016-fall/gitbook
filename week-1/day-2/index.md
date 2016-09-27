@@ -51,7 +51,7 @@ console.assert(x _ y === 2);
 
 ### Let's Work with Float and Grids!
 
-![Grid](http://purecss.io/layouts/blog/)
+* http://purecss.io/layouts/blog/
 
 ## Exercise & Lesson Code
 
