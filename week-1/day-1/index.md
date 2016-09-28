@@ -39,6 +39,10 @@ console.log(a); // 1
 
 - [https://github.com/TIY-TN-FEE-2016-fall/lesson-01-01](https://github.com/TIY-TN-FEE-2016-fall/lesson-01-01)
 
+## Whiteboards
+
+---
+
 ## Lab
 
 - [Git Basics](https://online.theironyard.com/paths/579/units/3472/lessons/13928)
@@ -46,9 +50,6 @@ console.log(a); // 1
 - [Navigating Github](https://online.theironyard.com/paths/579/units/3472/lessons/13929)
 - [Hub CLI](https://online.theironyard.com/paths/579/units/3472/lessons/13930)
 - Homework
-
-### Whiteboards
-
 
 ## Homework
 

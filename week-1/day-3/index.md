@@ -1,29 +1,38 @@
 # Wednesday September 28
 
-## Daily JS
+### Daily JS
 
-String Concatenation & ES6 Strings
+Maths & Equality
 
 ```js
 var x = 2;
 var y = 3;
-var z = 'hello';
-var a = 'world';
-var b = '2';
-var c = `${a} foo ${b}`;
-var d = `foo`;
-var e = `${x} + ${y} = ${x + y}`;
-var f = x + ' + ' + y + ' = ' + (x + y);
+var z = 4;
+var a = '2';
+var b = 'two';
 
-console.log(x + y); //
-console.log(z + a); //
-console.log(z + ' ' + a); //
-console.log(c); //
-console.log(d); //
-console.log(e); //
-console.log(x + z); //
-console.log(x + b); //
-console.log(x + Math.parseInt(b)); //
+
+console.log(x == x); //
+console.log(x == y); //
+console.log(x == a); //
+console.log(a == b); //
+
+// MOAR EQUALS
+console.log(x === y); //
+console.log(x === a); //
+
+// Not Equals
+console.log(x != a); //
+// MOAR NOT EQUALS
+console.log(x !== a); //
+console.log(x !== z); //
+
+// When you see console.assert fill in the _ to make the statement true
+console.assert(x _ y === -1);
+console.assert(x _ y === 5);
+console.assert(z _ x === 2);
+console.assert(x _ y === 6);
+console.assert(x _ y === 2);
 ```
 
 ## Standups
@@ -32,18 +41,51 @@ console.log(x + Math.parseInt(b)); //
 * What needs work?
 * Share from the Field
 * What have you learned?
+* _Tips if you have them_
+
+### Common Wins
+
+* Not being completely overwhelmed
+* Less nervous about code
+* Getting used to class
+* Taking time to enjoy
+* Group collaboration
+* Pretty fun x3
+* Not bored
+
+### Common Struggles
+
+* Following directions and not skipping
+* Understanding how to group HTML
+* Want to feel confident on own
+* Fixing other code is hard
+* Typing and shortcuts
+* Understanding terms
+* Applying to HW
+* More practice
+* Workflow
+
+## Tips
+
+* Look at code you're writing now and how it could change old stuff too!
+* Take advantage of code from before!
+* **Ask questions early and often**
+* Review past code
+* Start small
 
 ## Topics
 
-* [CSS Positioning](https://online.theironyard.com/paths/579/units/3469/lessons/13950)
-* [CSS Transform]https://online.theironyard.com/paths/579/units/3469/lessons/13952)
-* [CSS Backgrounds](https://online.theironyard.com/paths/579/units/3469/lessons/13954)
-* [CSS Pseudo Selectors](https://online.theironyard.com/paths/579/units/3469/lessons/13955)
 * Breaking Down a Layout
   - Marker Analogy (what's the easiest way to move the text that says "Expo on the whiteboard?")
   - Post-It Note
   - Jamaican-ized Approach
+* _Double Container Pattern_ **Notes inbound**
+* _Special Margins_ **Notes inbound**
 * Reusable Elements
+* [CSS Positioning](https://online.theironyard.com/paths/579/units/3469/lessons/13950)
+* [CSS Transform](https://online.theironyard.com/paths/579/units/3469/lessons/13952)
+* [CSS Backgrounds](https://online.theironyard.com/paths/579/units/3469/lessons/13954)
+* [CSS Pseudo Selectors](https://online.theironyard.com/paths/579/units/3469/lessons/13955) _maybe_
 
 ## Inspiration
 
