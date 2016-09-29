@@ -46,6 +46,38 @@ console.assert(x % y === 2);
 //  3 | 2
 ```
 
+## Standups
+
+1. What's going well
+2. What's not going well
+3. Share something not code
+4. What have you learned
+
+### Common Wins
+
+* Repetition helps to build understanding!
+* Enjoying the mental challenging **x3**!
+* Figuring things out is empowering!
+* Finishing feels awesome!
+* Not too overwhelming!
+* Lots of progress!
+
+### Common Troubles
+
+* Completing as much as you'd like
+* Deadlines can be overwhelming
+* Time management & sleep **x2**
+* Screensize === AHHHHH!!!
+* Control thought process
+* Comparing yourself
+* ☕️ is lyfe
+
+### Tips
+
+* Everybody's role, personality, and skills are vital
+* Ask questions when you get stuck
+* Make sure to take breaks! **x2**
+
 ## Topics
 
 * Chrome Inspector
