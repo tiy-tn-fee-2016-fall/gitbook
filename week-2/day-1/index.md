@@ -10,20 +10,23 @@ var y = 3;
 var z = 'hello';
 var a = 'world';
 var b = '2';
-var c = `${a} foo ${b}`;
+var c = `${a} foo${ b }`;
 var d = `foo`;
 var e = `${x} + ${y} = ${x + y}`;
 var f = x + ' + ' + y + ' = ' + (x + y);
+var g = "${x + y}";
 
-console.log(x + y); //
-console.log(z + a); //
-console.log(z + ' ' + a); //
-console.log(c); //
-console.log(d); //
-console.log(e); //
-console.log(x + z); //
-console.log(x + b); //
-console.log(x + Math.parseInt(b)); //
+console.log(x + y); // 5
+console.log(z + a); // "helloworld"
+console.log(z + ' ' + a); // "hello world"
+console.log(c); // "world foo2"
+console.log(d); // "foo"
+console.log(e); // "2 + 3 = 5"
+console.log(f); // "2 + 3 = 5"
+console.log(g); // "${x + y}"
+console.log(x + z); // "2hello"
+console.log(x + b); // "22"
+console.log(x + Math.parseInt(b)); // 4
 ```
 
 ## Lab
@@ -38,13 +41,25 @@ console.log(x + Math.parseInt(b)); //
 * What's something you'd like to share not about code?
 * What's something you've learned
 
-### Common Struggles
-
-*
-
 ### Common Wins
 
-*
+* Catching Up on HW *x2*
+* Grouping Helps *x2*
+* "Keeping Up" *x2*
+* Making Progress
+* Taking Breaks
+* New Week
+
+### Common Struggles
+
+* Making Code that "FEELS GOOD"
+* Keeping Up with Missed Days
+* Screen resizing *x3*
+* Display Flex *x2*
+* Resizing Images
+* Display Inline
+* Feel slow
+* [Monday](https://cdn.meme.am/instances/64509792.jpg) *x2*
 
 ## Topics
 
