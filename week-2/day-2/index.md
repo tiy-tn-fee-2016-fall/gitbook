@@ -72,8 +72,8 @@ console.log(doubleNum()); // 4
 ## Topics
 
 * Resources
-* [Media Queries](https://online.theironyard.com/paths/379/units/2230/lessons/8599)
-* [Pseudo Selectors & Elements](https://online.theironyard.com/paths/379/units/2230/lessons/8600)
+* [Media Queries](https://online.theironyard.com/paths/579/units/3686/lessons/14827)
+* [Pseudo Selectors & Elements](https://online.theironyard.com/paths/579/units/3686/lessons/14828)
   - CSS `content`
 
 ## Inspiration
