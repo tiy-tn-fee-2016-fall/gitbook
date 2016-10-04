@@ -7,7 +7,7 @@
 ```js
 var x = function() {
   console.log('hello');
-  return 'Passed from x';
+  return 'Returned from x';
 };
 
 function y() {
@@ -22,13 +22,24 @@ var a = () => {
   return 'no';
 };
 
+var b;
 
-console.log(x); //
-x(); //
-console.log(x()); //
-console.log(y()); //
-console.log(z()); //
-console.log(a()); //
+var num = 2;
+var doubleNum = () => 2 * num;
+// var doubleNum = () => {
+//   return 2 * num;
+// };
+
+console.log(b); // undefined
+console.log(x); // FUNCTION
+x(); // "hello"
+console.log(x()); // "hello" // "Returned from x"
+y(); // "world"
+console.log(y()); // "world" // undefined
+console.log(z); // FUNCTION
+console.log(z()); // "yup" // undefined
+console.log(a()); // "no"
+console.log(doubleNum()); // 4
 ```
 
 ## Interruptions
@@ -44,21 +55,31 @@ console.log(a()); //
 
 ### Common Wins
 
-*
+* Some less stress and better routine *x3*
+* Starting to get concepts
+* HW Progress *2*
+* Practice
+
 ### Common Struggles
 
-*
-
-![My Code](http://images-cdn.9gag.com/photo/anYZ9Eo_700b.jpg)
+* Width and Calc
+* Grouping HTML
+* Workflow *x3*
+* Catching Up
+* Balance
+* Flexbox
 
 ## Topics
 
 * Resources
 * [Media Queries](https://online.theironyard.com/paths/379/units/2230/lessons/8599)
 * [Pseudo Selectors & Elements](https://online.theironyard.com/paths/379/units/2230/lessons/8600)
-* CSS `content`
+  - CSS `content`
 
 ## Inspiration
+
+* Twitter Again!!!
+* Mobile Friendly Menus
 
 ## Exercise & Lesson Code
 
