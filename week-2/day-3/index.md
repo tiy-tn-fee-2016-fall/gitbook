@@ -1,4 +1,4 @@
-# Wednesday June 22
+# Wednesday Octover 5
 
 ## Daily JS * 2
 
@@ -7,14 +7,7 @@
 When looking at variables or arguments inside of functions, if they are created in the function itself just rename it `functionName_variableName` so that it is clear that these variables are DIFFERENT than variables that exist outside of that function.
 
 
-
 ```js
-
-/* Fat arrow same as
-var a = function(x = 9, y = 10) {
-  return x * y;
-};
- */
 var x = 2;
 
 var y = function(foo) {
@@ -25,6 +18,11 @@ function z(foo) {
   return foo + x;
 }
 
+/* Fat arrow same as
+var a = function(x = 9, y = 10) {
+  return x * y;
+};
+ */
 var a = (x = 9, y = 10, z = 2) => {
   return x * y;
 };
@@ -33,23 +31,29 @@ var b = (cb, value) => {
   return cb(value + 2);
 };
 
-console.log(y()); //
-console.log(y(12)); //
-console.log(y('hello')); //
-console.log(foo); //
-console.log(y(x)); //
-console.log(z('Five')); //
-console.log(z(x)); //
-console.log(a(15, 2)); //
-console.log(x); //
-console.log(a()); //
-console.log(a(41)); //
-console.log(b(y, x)); //
+console.log(y()); // undefined
+console.log(y(12)); // 12
+console.log(y('hello')); // "hello"
+console.log(foo); // undefined (or this may throw an error)
+console.log(y(x)); // 2
+console.log(z('Five')); // "Five2"
+console.log(z(x)); // 4
+console.log(a(15, 2)); // 30
+console.log(a(0, 15, 2)); // 0
+console.log(a(20, 15, 40, 2)); // 300
+console.log(x); // 2
+console.log(a()); // 90
+console.log(a(1)); // 10
+console.log(a(2)); // 10
+console.log(a(41)); // 410
+console.log(a(-10)); // -100
+console.log(b(y, x)); // 4
+console.log(b(a, 10)); // 120
 ```
 
 ## Interruptions
 
-* None
+* Meeting 1-1:45PM
 
 ## Standups
 
@@ -60,11 +64,19 @@ console.log(b(y, x)); //
 
 ### Common Wins
 
-*
+### Common Wins
+
+* Monday's HW is coming into focus *x3*
+* Keeping up
+* Sleep
+* Grids
 
 ### Common Struggles
 
-*
+* Hover *x3*
+* Terminal
+* Flexbox
+* Grids
 
 ## Topics
 

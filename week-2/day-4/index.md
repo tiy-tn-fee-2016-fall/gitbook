@@ -61,20 +61,23 @@ console.log(z.fullName()); //
 
 ### Common Wins
 
-* Asking for help... HELPS!
+* Monday's HW is coming into focus *x3*
+* Keeping up
+* Sleep
+* Grids
 
 ### Common Struggles
 
-* Overcomplicating things === bad
-* Media Queries
+* Hover *x3*
+* Terminal
 * Flexbox
+* Grids
 
 ## Topics
 
 * Scrollable Areas
 * Modifying Build Tools
   - [Foundation](http://foundation.zurb.com/sites/docs/v/5.5.3/using-sass.html)
-  - `npm install foundation-sites --save`
 * SASS Extends
 * SASS Mixins
   - Yoga SASS
