@@ -104,7 +104,7 @@ console.log(z.fullName()); // "Jar Jar undefined"
 
 ## Exercise & Lesson Code
 
-https://github.com/TIY-TN-FEE-2016-fall/lesson-02-04
+https://github.com/tiy-tn-fee-2016-fall/lesson-02-03/tree/thursday
 
 ## Lab
 
