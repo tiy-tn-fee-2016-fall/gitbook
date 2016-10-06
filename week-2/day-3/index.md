@@ -1,4 +1,4 @@
-# Wednesday Octover 5
+# Wednesday October 5
 
 ## Daily JS * 2
 
@@ -107,7 +107,7 @@ console.log(b(a, 10)); // 120
 
 ## Exercise & Lesson Code
 
-https://github.com/tiy-tn-fee-2016-summer/lesson-02-03
+https://github.com/TIY-TN-FEE-2016-fall/lesson-02-03
 
 ## Lab
 

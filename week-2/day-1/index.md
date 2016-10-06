@@ -97,6 +97,6 @@ console.log(x + Math.parseInt(b)); // 4
 
 ## Exercise & Lesson Code
 
-https://github.com/tiy-tn-fee-2016-summer/lesson-02-01
+https://github.com/TIY-TN-FEE-2016-fall/lesson-02-01
 
 ## Homework
