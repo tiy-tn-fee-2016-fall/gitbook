@@ -1,5 +1,9 @@
 # Monday Oct 10
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8tYXfssLOSM" frameborder="0" allowfullscreen></iframe>
+
+![Spooky](http://i.makeagif.com/media/3-07-2015/AZavQz.gif)
+
 ## Interruptions & Events
 
 - 1:30PM Guest Lecture!
@@ -19,6 +23,10 @@ var y = function(wat) {
   return wat === 10;
 };
 
+function otherFn() {
+  return false;
+}
+
 var z = 'false';
 
 var a = (foo) => {
@@ -30,47 +38,84 @@ var a = (foo) => {
 
 var noexist;
 
-if (x) {
-  console.log(`x is truthy?`);
-}
-
-if (hi) {
+if (hi) { // Skip over this block of code because hi is false
   console.log(`hi is truthy?`);
 }
 
-if (noexist) {
+if (x == 20) {
+  console.log(`x is truthy?`); // "x is truthy"
+}
+
+if (x) {
+  console.log(`x is truthy?`); // "x is truthy"
+}
+
+if (1) {
+  console.log(`1 is truthy?`); // "1 is truthy"
+}
+
+if (0) { // 0 is considered "falsey"
+  console.log(`0 is truthy?`);
+}
+
+if (-1) {
+  console.log(`-1 is truthy?`); // "-1 is truthy"
+}
+
+if (noexist) { // Undefined is "falsey"
   console.log(`noexist is truthy?`);
 }
 
+if (otherFn) {
+  console.log(`otherFn is truthy?`); // "otherFn is truthy?"
+}
+
 if (y) {
-  console.log(`y is truthy?`);
+  console.log(`y is truthy?`); // "y is truthy?"
 }
 
 if (z) {
-  console.log(`z is truthy?`);
+  console.log(`z is truthy?`); // "z is truthy?"
 }
 
-if (y(`10`)) {
+if ("some long string") {
+  console.log(`"some long string" is truthy?`); // "\"some long string\" is truthy?"
+}
+
+if (" ") {
+  console.log(`" " is truthy`); // "\" \" is truthy"
+}
+
+if ("") { // Empty strings are falsey!!!
+  console.log(`"" is truthy`);
+}
+
+if (y(`10`)) { // Logs "10" within the function y // Skips the if statement because y('10') returned false
   console.log(`y('10') is truthy?`);
 } else {
-  console.log('y returned something falsey!');
+  console.log('y returned something falsey!'); // "y returned something falsey!"
 }
 
-if (a()) {
+if (a()) { // a() returns undefined
   console.log(`a() is truthy?`);
 }
 
-if (a(null)) {
+if (a(null)) { // a(null) returns undefined
   console.log(`a(null) is truthy?`);
 }
 
-if (a(10)) {
+if (a(10)) { // "a works with 10" logged within a, but return undefined
   console.log(`a(10) is truthy?`);
 }
 ```
 
-| Truthy                 | Falsey         |
-| :-------------         | :------------- |
+| Truthy                | Falsey    |
+|:----------------------|:----------|
+| true                  | false     |
+| All numbers not 0     | 0         |
+| All function VALUES   | undefined |
+| All non-empty strings | ""        |
+|                       | null      |
 
 https://dorey.github.io/JavaScript-Equality-Table/
 
@@ -140,11 +185,22 @@ console.log(pet); //
 
 ### Common Wins
 
-*
+* Flexbox is clicking *2x*
+* Comfort Writing HTML
+* Transform Translate
+* Position Absolute
+* Rock Solid Notes
+* HW Progress *3x*
+* Grids *2x*
 
 ### Common Struggles
 
-*
+* Full width images in "cards"
+* Resizing and Responsive *2x*
+* CSS is Harder than HTML
+* Javascript *2x*
+* Finer Detail
+* Sick
 
 ## Topics
 
