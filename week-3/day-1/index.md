@@ -129,51 +129,73 @@ x = 10;
 var y = x;
 y = 12;
 
-console.log(x); //
-console.log(y); //
+console.log(x); // 10
+console.log(y); // 12
 
 var z = {firstName: 'Bob'};
-console.log(z.firstName); //
+console.log(z.firstName); // "Bob"
 
 var a = z;
 a.firstName = 'Tim';
-console.log(a.firstName); //
+console.log(a.firstName); // "Tim"
 a = {firstName: 'Jan'};
 
-console.log(a.firstName); //
-console.log(z.firstName); //
+console.log(a.firstName); // "Jan"
+console.log(z.firstName); // "Tim"
+console.log(z['firstName']); // "Tim"
 
 var b = [15, 25, 30];
+console.log(b[0]); // 15
 var c = b;
 c[1] = 100;
 
-console.log(b); //
-console.log(c); //
+console.log(b); // [15, 100, 30]
+console.log(c); // [15, 100, 30]
 
 a = b;
 
-console.log(x); //
-console.log(y); //
-console.log(z); //
-console.log(a); //
-console.log(b); //
-console.log(c); //
+console.log(x); // 10
+console.log(y); // 12
+console.log(z); // { firstName: "Tim" }
+console.log(a); // [15, 100, 30]
+console.log(b); // [15, 100, 30]
+console.log(c); // [15, 100, 30]
 ```
 
-> **PRO TIP** - If you see dot notation or bracket notation on the left hand side of an assignment, you are changing that actual object! If there is no dot or bracket notation, you will not have side-effects.
+**PRO TIP** - If you see dot notation or bracket notation on the left hand side of an assignment, you are changing that actual object! If there is no dot or bracket notation, you will _usually_ not have side-effects.
 
 ```js
+var order1 = "Two tacos";
+order1 = "Two tacos and salsa";
+order2 = order1;
+
+order1 = "Burrito";
+order2;
+
+var objectOrder = {
+  tacos: 2,
+};
+var myOrder = objectOrder;
+objectOrder.salsa = true;
+
+objectOrder.salsa = false;
+objectOrder.burrito = 1;
+
+console.log(myOrder); // { tacos: 2, salsa: false, burrito: 1 }
+```
+
+```js
+var character = { firstName: 'Jon', lastName: 'Snow' };
+var pet = 'Wolf';
+
 function change(a, b) {
   a.lastName = 'Stark';
   b = 'Dragon';
 }
 
-var character = { firstName: 'Jon', lastName: 'Snow' };
-var pet = 'Wolf';
-
-change(character, pet);
-console.log(character); //
-console.log(pet); //
+change(character, pet, "twenty two");
+console.log(character); // { firstName: 'Jon', lastName: 'Stark' };
+console.log(pet); // "Wolf"
 ```
 
 ## Standups
@@ -214,8 +236,10 @@ console.log(pet); //
   * `if` & `else`
   * `while` loop
   * `for` loop
-- What is Node.js
+- `import`/`export default` Statements
 - Making tests pass
+
+```npm install -g generator-qunit-broccoli```
 
 ## Code
 
