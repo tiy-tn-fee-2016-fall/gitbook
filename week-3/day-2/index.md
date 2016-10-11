@@ -1,18 +1,24 @@
-# Tuesday June 28
+# Tuesday October 11 (2 Days to VR)
 
 ## Standups
 
+* What is going well?
+* What is not going well (what are you struggling with)?
+* What's something you'd like to share not about code?
+* What's something you've learned
+
 ### Common Wins!
 
-* Class working together
+* JS HW DONE! *4x*
+* Assignments
+* Not TOO bad
 
 ### Common Struggles
 
+* Catching Up!
 * Javascript
-
-## Interruptions & Events
-
-- One on Ones with Josh!
+* Displays
+* Sleep
 
 ## Daily JS
 
@@ -40,10 +46,19 @@ console.assert(digitize(8675309)[6] === 9); // Checks that the item in position 
 
 ## Topics
 
-- [Variable Scope](scope.html)
-- [Hoisting and Variables](hoisting.html)
+- Syntax Dictionary
+- Variables In-depth
+- `for` loops
 - [Objects and Classes](http://www.2ality.com/2015/02/es6-classes-final.html)
 - [Types of Functions](http://bonsaiden.github.io/JavaScript-Garden/#function.general)
+
+## TIYO Lessons!
+
+- [Javascript Expressions, Variables, and Data Types](https://online.theironyard.com/paths/579/units/3748/lessons/15123)
+- [Javascript Operators](https://online.theironyard.com/paths/579/units/3748/lessons/15124)
+- [Javascript Control Flow](https://online.theironyard.com/paths/579/units/3748/lessons/15125)
+- [Javascript Functions](https://online.theironyard.com/paths/579/units/3748/lessons/15126)
+- [Objects and arrays](https://online.theironyard.com/paths/579/units/3748/lessons/15127)
 
 ## Lab
 
