@@ -23,6 +23,7 @@
   - Week 2
     + [Day 1](week-2/day-1/index.md)
     + [Day 2](week-2/day-2/index.md)
+      - [JS ALL THINGS](week-2/day-2/js-all-the-things.md)
     + [Day 3](week-2/day-3/index.md)
     + [Day 4](week-2/day-4/index.md)
 
