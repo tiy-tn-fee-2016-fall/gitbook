@@ -1,4 +1,4 @@
-# Wednesday June 29
+# Wednesday October 12
 
 
 ## Standups
