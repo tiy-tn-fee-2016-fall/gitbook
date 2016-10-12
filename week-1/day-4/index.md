@@ -106,7 +106,7 @@ console.assert(x % y === 2);
 
 ## Exercise & Lesson Code
 
-https://github.com/TIY-TN-FEE-2016-spring/lesson-01-04
+https://github.com/TIY-TN-FEE-2016-fall/lesson-01-04
 
 ## Lab
 
@@ -155,4 +155,4 @@ console.log(c === d);
 
 ## Homework
 
-https://github.com/TIY-TN-FEE-2016-spring/assignments/tree/master/04-surf-and-paddle
+https://github.com/TIY-TN-FEE-2016-fall/assignments/tree/master/04-surf-and-paddle

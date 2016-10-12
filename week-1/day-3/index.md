@@ -60,7 +60,7 @@
 
 ## Exercise & Lesson Code
 
-https://github.com/TIY-TN-FEE-2016-spring/lesson-01-03
+https://github.com/TIY-TN-FEE-2016-fall/lesson-01-03
 
 ## Lab
 

@@ -65,6 +65,6 @@ console.assert(digitize(8675309)[6] === 9); // Checks that the item in position 
 
 ## Code
 
-https://github.com/TIY-TN-FEE-2016-spring/lesson-03-02
+https://github.com/TIY-TN-FEE-2016-fall/lesson-03-02
 
 ## Homework

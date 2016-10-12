@@ -23,6 +23,6 @@
 
 ## Code
 
-https://github.com/TIY-TN-FEE-2016-spring/lesson-03-04
+https://github.com/TIY-TN-FEE-2016-fall/lesson-03-04
 
 ## Homework
