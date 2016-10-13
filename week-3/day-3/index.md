@@ -10,11 +10,19 @@
 
 ### Common Wins
 
-*
+* Starting to Identify Syntax Errors
+* Still Here and Asking Questions *3x*
+* Teamwork Makes the Dream Work!
+* Small Progress on HW *2x*
+* `if`/`else` *3x*
 
 ### Common Struggles
 
-*
+* Application in Homework
+* `for`/`while` *2x*
+* Javascript *3x*
+* HW Progress
+* Backlog
 
 ## Topics
 
