@@ -30,12 +30,39 @@ http://codepen.io/rtablada/pen/mEwYGv?editors=1010
 
 ### Common Wins
 
-*
+* Some HW Progress
+* Styling and CSS
+* Looking Back
+* Getting Used to not Knowing
+* `console.log` and `debugger`
+* New Day
 
 ### Common Struggles
 
-*
+* JS *3x*
+* Backlog *3x*
+* Functions Arguments
+* How to ask Questions
 
+## FAQ and Review
+
+* [ ] Test Driven Development - Dedicated Lesson this Week
+* [ ] `debugger`
+* [X] JS DOM manipulation
+  * [X] `document.createElement(tagName)` - Creates a new element floating around in memory (not shown to user yet)
+  * [X] `document.querySelector(selector)` - Looks for the first instance of an element that matches the selector in the whole page
+  * [X] `element.querySelector(selector)` - Looks for the first instance of an element that matches the selector within a specific element
+    - [X] ex. `track.querySelector('h1')` this selects the first `h1` element in the `track` element
+  * [X] `element.classList.add(className)` - Adds a class to the element based on the passed in string argument
+    - [X] ex. `track.classList.add('track-item')`
+  * [X] `element.classList.remove(className)` - Removes a class from the element based on the passed in string argument
+    - [X] ex. `track.classList.remove('track-item')`
+  * [X] `element.classList.toggle(className)` - If the class does not exist on the element add it, if it does, remove it (helpful for hiding/showing elements like dropdowns or for CSS animations)
+    - [X] ex. `dropdown.classList.toggle('is-open')`
+    - [X] ex. `dropdown.classList.toggle('dropdown--open')`
+  * [X] `element.innerText` - Sets the contents of the element, escaping all special characters (helpful to protect from scripting attacks)
+  * [X] `element.innerHTML` - Sets the contents of the element and all content will be parsed as HTML. This should only be used for templates, string literals, and TRUSTED information (so don't use it with variable data).
+    - [X] This is `x.innerHTML = someVariable`  (what if `someVariable = '<script type="javascript">window.location = "http://someothersite.com"</script>'`, this would redirect our page based on user input data and allow for security attacks)
 
 ## Topics
 
