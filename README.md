@@ -81,65 +81,61 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
       - Function Declaration vs Anonymous Functions
     * Variable Scope
     * Hoisting
-    * ES2015 Classes
   - Wednesday
     * Debugging
     * DOM Elements
       - `innerHTML`
       - `classList`
   - Thursday
-    * Callbacks
-    * Array Functions
-      - `map`, `filter`, `forEach`
-    * Event Listeners
-* Week 4
+    * DOM Practice
+* Week 4 - Build Your Own MVC Framework
   - Monday
-    * Functional Programming
-      - `reduce`
-      - `map`
-      - `forEach`
+    * Object Oriented Programing Introduction
+    * DOM Review
+    * Models
+    * View introduction
   - Tuesday
-    * Babel
-    * Transpilation
-  - Wednesday
-    * Unit Testing
-  - Thursday
+    * Callbacks in depth
     * `window.fetch`
-    * Acceptance Tests
+    * `.addEventListener`
+    * Arrays and Functional Programing
+  - Wednesday
+    * REST - Using `fetch` for more than just reading data
+    * Controllers and Application State
+  - Thursday
+    *
 * Week 5
   - Monday
-    * jQuery
-      - Selectors
-      - Traversal
-      - Events
+    * Browserify and Build Tools
+    * Vue.js Introduction
+      - Read Only
+      - Sub components
   - Tuesday
-    * Site Visit
+    * Vue.js Events
+    * CORS
+    * File Uploads!
   - Wednesday
-    * Application Views
+    * Testing with Gerkhin
   - Thursday
-    * Lab
+    * Routing
 * Week 6
   - Monday
-    * Application Template
-    * Application Route
-    * Handlebars
+    * Introduction to Ember
+      - Comparison to Vue
+      - Routes
+      - Handlebars
   - Tuesday
-    * Unit Testing
-      - Filtering
-      - Reducing
-    * Handlebars Helpers
-  - Wednesday
-    * Acceptance Testing
-    * Routing
     * Actions
-    * `input`
+    * Controllers
+    * Helpers
+    * Forms
+  - Wednesday
+    * Testing - How do we know this works?
+  - Thursday
+    * Components - Breaking it down
 * Week 7
-  - Ember Actions
-  - Ember Template Helpers
-    * Filtering
-    * Logic
-    * Etc
-  - Ember Data
+  - Monday
+    * Introduction to Node
 * Week 8
   - Ember Authentication
   - Ember Testing
