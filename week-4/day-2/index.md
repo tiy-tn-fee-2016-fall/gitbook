@@ -26,7 +26,7 @@
 ### Common Struggles
 
 * Still not 100% comfort in JS *3x*
-* Need more JS practice
+* Need more JS practice *2x*
 * Twitch and Spotify
 * Feeling Behind
 
