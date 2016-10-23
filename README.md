@@ -94,30 +94,28 @@ Over twelve weeks we will cover HTML, CSS, Javascript, and more to get you ready
     * DOM Review
     * Models
     * View introduction
-  - Tuesday
+  - Thursday
     * Callbacks in depth
     * `window.fetch`
     * `.addEventListener`
     * Arrays and Functional Programing
-  - Wednesday
-    * REST - Using `fetch` for more than just reading data
-    * Controllers and Application State
-  - Thursday
-    *
 * Week 5
   - Monday
+    * REST - Using `fetch` for more than just reading data
+    * Controllers and Application State
+  - Tuesday
+    * Pure Functions
+    * Unit Testing
+  - Wednesday
     * Browserify and Build Tools
     * Vue.js Introduction
       - Read Only
       - Sub components
-  - Tuesday
+  - Thursday
     * Vue.js Events
     * CORS
-    * File Uploads!
-  - Wednesday
-    * Testing with Gerkhin
-  - Thursday
-    * Routing
+  - Friday
+    * Writing user stories and tests
 * Week 6
   - Monday
     * Introduction to Ember
