@@ -46,9 +46,9 @@ http://codepen.io/rtablada/pen/mEwYGv?editors=1010
 
 ## FAQ and Review
 
-* [ ] Test Driven Development - Dedicated Lesson this Week
-* [ ] `debugger`
-* [X] JS DOM manipulation
+- [ ] Test Driven Development - Dedicated Lesson this Week
+- [X] `debugger`
+- [X] JS DOM manipulation
   * [X] `document.createElement(tagName)` - Creates a new element floating around in memory (not shown to user yet)
   * [X] `document.querySelector(selector)` - Looks for the first instance of an element that matches the selector in the whole page
   * [X] `element.querySelector(selector)` - Looks for the first instance of an element that matches the selector within a specific element
@@ -63,6 +63,7 @@ http://codepen.io/rtablada/pen/mEwYGv?editors=1010
   * [X] `element.innerText` - Sets the contents of the element, escaping all special characters (helpful to protect from scripting attacks)
   * [X] `element.innerHTML` - Sets the contents of the element and all content will be parsed as HTML. This should only be used for templates, string literals, and TRUSTED information (so don't use it with variable data).
     - [X] This is `x.innerHTML = someVariable`  (what if `someVariable = '<script type="javascript">window.location = "http://someothersite.com"</script>'`, this would redirect our page based on user input data and allow for security attacks)
+- [ ] Mixing `return` and `for` loops
 
 ## Topics
 
@@ -139,12 +140,8 @@ http://codepen.io/rtablada/pen/mEwYGv?editors=1010
 ]
 ```
 
-## FAQ
-
-* [ ]
-
 ## Code
 
-https://github.com/tiy-tn-fee-2016-fall/lesson-week-04/tree/day-01
+https://github.com/tiy-tn-fee-2016-fall/week-04/tree/monday
 
 ## Homework
