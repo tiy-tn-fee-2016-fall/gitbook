@@ -37,10 +37,8 @@ Feature: Heart Rate Monitor Form::
     As a user
     I want to be able to see a form to fill out
 
-    Background: Seeing the Form
-        Given I am on the "Home" page
-
     Scenario: See the form
+        Given I am on the "Home" page
         Then I should see two inputs
 
         Examples:
@@ -51,11 +49,9 @@ Feature: Heart Rate Monitor List::
     As a user
     I want to see existing heart rate entries
 
-    Background: Seeing the existing records
+    Scenario: See existing records:
         Given I am on the "Home" page
         And there are existing heart rate entires in the API
-
-    Scenario: See existing records:
         Then I see a list of existing heart rate entries
         And I see a chart of heart rate entries,
         And I see the "BPM Minimum" is 5 less than the minimum recorded BPM
@@ -64,7 +60,7 @@ Feature: Heart Rate Monitor Submit::
     As a user
     I want to fill out the form to log a BPM reading
 
-    Background: Seeing the existing records
+    Scenario: The new record shows up
         Given I am on the "Home" page
         And there are <existing> heart rate records
         And submit the form with inputs
@@ -72,8 +68,6 @@ Feature: Heart Rate Monitor Submit::
         Examples:
             | user | bpm |
             | rft | 100 |
-
-    Scenario: The new record shows up
         Then I see there are <existing> + 1 heart rate records
         And I see the last heart rate record is for <user> and <bpm>
 ```
