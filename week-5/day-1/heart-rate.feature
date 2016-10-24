@@ -4,7 +4,8 @@ Feature: Heart Rate Monitor Form::
 
     Scenario: See the form
         Given I am on the "Home" page
-        Then I should see two inputs
+        Then I should see a form that contains two inputs
+        And I should see a submit button
 
         Examples:
             | Placeholder | Label | Name |
@@ -17,7 +18,7 @@ Feature: Heart Rate Monitor List::
     Scenario: See existing records:
         Given I am on the "Home" page
         And there are existing heart rate entires in the API
-        Then I see a list of existing heart rate entries
+        Then I see a list of existing heart rate entries with "Initials", "BPM", and "Date"
         And I see a chart of heart rate entries,
         And I see the "BPM Minimum" is 5 less than the minimum recorded BPM
         And I see the "BPM Maximum" is 5 greater than the maximum recorded BPM

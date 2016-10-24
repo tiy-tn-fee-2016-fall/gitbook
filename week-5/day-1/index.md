@@ -2,6 +2,8 @@
 
 ## Interruptions
 
+* 2:00-2:30 - Call
+
 ## Standups
 
 * What is going well?
@@ -11,22 +13,33 @@
 
 ### Common Wins
 
-*
+* Catching Up on Assignments *5x*
+* Fresh Start *2x*
+* Exercises
 
 ### Common Struggles
 
-*
-
+* Somebody's Got a Case of the Mondays
+* Don't Hate Javascript
+* Catching Up Still *2x*
+* Event Listeners *2x*
+* Walking Dead
+* Javascript
 
 ## Topics
 
 * `fetch` for advanced HTTP Requests
+  - Postman
   - What is HTTP?
   - REST
   - Headers
 * Controllers
   - What are they?
   - How can we better organize Controllers?
+
+## Pro Tips
+
+button `type="button"`
 
 ## App for the Day
 
@@ -52,7 +65,7 @@ Feature: Heart Rate Monitor List::
     Scenario: See existing records:
         Given I am on the "Home" page
         And there are existing heart rate entires in the API
-        Then I see a list of existing heart rate entries
+        Then I see a list of existing heart rate entries with "Initials", "BPM", and "Date"
         And I see a chart of heart rate entries,
         And I see the "BPM Minimum" is 5 less than the minimum recorded BPM
         And I see the "BPM Maximum" is 5 greater than the maximum recorded BPM
