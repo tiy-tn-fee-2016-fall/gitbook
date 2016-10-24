@@ -36,10 +36,11 @@
 * Controllers
   - What are they?
   - How can we better organize Controllers?
+* List Views
 
 ## Pro Tips
 
-button `type="button"`
+Button elements with `type="button"` DOES NOT SUBMIT FORMS!!! Use `type="submit"` instead.
 
 ## App for the Day
 
