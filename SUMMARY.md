@@ -36,7 +36,6 @@
   - Week 4
     + [Day 1](week-4/day-1/index.md)
     + [Day 2](week-4/day-2/index.md)
-    + [Day 3](week-4/day-3/index.md)
 
   - Week 5
     + [Day 1](week-5/day-1/index.md)
