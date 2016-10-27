@@ -2,10 +2,11 @@
 
 ## Schedule
 
+* Review `forEach` Loops
 * Figure out makeup lecture (Friday 9-10?)
 * Standups
 * Review and Recover list
-*
+* Lecture
 
 ## Interruptions
 
@@ -20,12 +21,20 @@
 
 ### Common Wins
 
-*
+* JS is a *little* better
+* Group Assignment *6x*
+* View Practice
+* Grid Review
 
 ### Common Struggles
 
-*
-
+* Challenging Group Assignment
+  * Working with the Server
+  * Finding Common Ground
+* Javascript Needs Practice *2x*
+* Figuring Out `debugger`
+* Merge Conflicts *2x*
+* Where Do Things Go
 
 ## Topics
 
@@ -42,7 +51,10 @@
 
 ## Review and Recover
 
-* [ ]
+* [ ] Controllers
+* [ ] Github Workflow
+* [ ] Event Listeners
+* [ ] Multiple Views
 
 ## Code
 
