@@ -1,9 +1,10 @@
-# Tuesday November 2
+# Wednesday November 2
 
 ## Interruptions
 
-* Meeting 12:30-1:30
-* Call 2-2:30
+* Lecture Surprise
+* 1-1:45PM Call
+* 4:30-5PM Call
 
 ## Standups
 
@@ -14,24 +15,26 @@
 
 ### Common Wins
 
-* Feeling a Little Better
-* Catching Up on HW
-* Halfway *4x*
-* Not Monday
-* Waking Up
+* Learning to Code is Fun! (even JAVASCRIPT!!!)
+* HW Progress
+* Backlog!!! *2x*
+* Monster Mash! *2x*
 
 ### Common Struggles
 
-* Monster HW *6x*
-* Sick *2x*
+* Still need work on Monster Mash
+* Terminal is Borked?
+* Twitch HW
+* Sick...
+* Vue???
 
 
 ## Topics
 
-* Vue Router
-* Emitting Events From Vue
+* Continue Talking about Routes
+* Array `filter` & `map`practice
 
-## FAQ
+## Review and Recover
 
 * [ ]
 

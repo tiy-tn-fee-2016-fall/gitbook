@@ -1,9 +1,6 @@
-# Tuesday November 2
+# Monday November 7
 
 ## Interruptions
-
-* Meeting 12:30-1:30
-* Call 2-2:30
 
 ## Standups
 
@@ -14,22 +11,27 @@
 
 ### Common Wins
 
-* Feeling a Little Better
-* Catching Up on HW
-* Halfway *4x*
-* Not Monday
-* Waking Up
+* Taking a Break *2x*
+* Vue.js Templates
+* Proud of Skills
+* Mac Repairs!!!
+* HW Progress
+* Puppies
 
 ### Common Struggles
 
-* Monster HW *6x*
-* Sick *2x*
-
+* HW Progress 😬 *3x*
+* Vue.js Connections *2x*
+* CRUD Updates
 
 ## Topics
 
-* Vue Router
-* Emitting Events From Vue
+* Adonis
+  - Better Templates and Layouts
+  - Controller
+  - Databases
+  - Models
+* Destructuring
 
 ## FAQ
 
