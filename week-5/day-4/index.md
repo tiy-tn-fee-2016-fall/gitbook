@@ -10,7 +10,7 @@
 * `mounted` Methods
 * `methods` object
 * Templating
-  * `\{{}}` to print values from data
+  * `{% raw %}{{}}{% endraw %}` to print values from data
   * `v-for="x in y"` - Creates copies of element forEach item in the `y` array and creates a temporary variable `x`
   * `v-if="y"` - Shows the current element only if the `y` value is truthy
   * `v-bind:attribute-name="y"` - Updates the `attribute-name` attribute when the `y` value changes
